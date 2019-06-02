@@ -25,7 +25,7 @@ SECRET_KEY = 'u9x#jq1i0b1b-ew%ndu)6f0_u(4scvk)hl6!niwxri4fj*fa3&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['yunseongk.github.io']
 
 
 # Application definition
