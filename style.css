@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+
 * {
     color: white;
     background-color: black !important;
@@ -5,4 +7,12 @@
 
 hr {
     border: 1px solid white !important;
+}
+
+header {
+    font-family: 'BioRhyme', serif;
+}
+
+header .h1 {
+    font-size: 20px;
 }
