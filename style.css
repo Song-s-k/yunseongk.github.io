@@ -9,5 +9,11 @@ hr {
     border: 0.5px solid white !important;
 }
 
+img {
+    background-color: white !important;
+    filter: invert(100%);
+    width: 30px;
+}
+
 
 /* font-family: 'BioRhyme', serif; */
