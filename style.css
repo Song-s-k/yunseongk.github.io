@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Turret+Road:500&display=swap');
 
-* {
-    background-color: yellow;
-    text-align: right;
+body {
+    background-color: #f1c40f;
 }
 
-div {
+.a {
     position: fixed;
     bottom: 20px;
     right: 10px;
+    text-align: right;
     font-family: 'Turret Road', cursive;
 }
 
+.b {
+    text-align: center;
+}
