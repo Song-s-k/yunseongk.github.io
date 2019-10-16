@@ -1,17 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Turret+Road:500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Turret+Road:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
 
 body {
-    background-color: #f1c40f;
+  background-color: #f1c40f;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .a {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    text-align: right;
-    font-family: 'Turret Road', cursive;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  text-align: right;
+  font-family: "Turret Road", cursive;
 }
 
 .b {
-    text-align: center;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  line-height: 20pt;
+  font-family: "Montserrat", sans-serif;
 }
