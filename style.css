@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Turret+Road:500&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Hi+Melody&display=swap");
 
 body {
   background-color: #f1c40f;
@@ -25,3 +26,37 @@ a {
   line-height: 20pt;
   font-family: "Montserrat", sans-serif;
 }
+
+.mobile {
+  display: none;
+  text-align: center;
+  font-family: "Hi Melody", cursive;
+  vertical-align: middle;
+}
+
+.mobile p {
+  bottom: 10px;
+}
+.pizza {
+  display: none;
+  position: relative;
+  top: 50px;
+  font-size: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .a {
+    display: none;
+  }
+  .b {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .pizza {
+    display: block;
+  }
+}
+
+/* display: block; */
