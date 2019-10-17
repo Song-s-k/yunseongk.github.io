@@ -27,6 +27,10 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
+.b p {
+  margin: 5px 0;
+}
+
 .mobile {
   display: none;
   position: absolute;
