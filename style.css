@@ -11,7 +11,7 @@ a {
   color: inherit;
 }
 
-.a {
+.contact {
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -19,7 +19,7 @@ a {
   font-family: "Turret Road", cursive;
 }
 
-.b {
+.portfolio {
   position: relative;
   left: 30px;
   top: 20px;
@@ -27,8 +27,11 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
-.b p {
+.porfolio p {
   margin: 5px 0;
+}
+
+.link {
 }
 
 .mobile {
@@ -50,10 +53,10 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-  .a {
+  .contact {
     display: none;
   }
-  .b {
+  .portfolio {
     display: none;
   }
   .mobile {
