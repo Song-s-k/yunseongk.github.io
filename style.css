@@ -13,58 +13,16 @@ a {
 
 .contact {
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 5%;
+  right: 5%;
   text-align: right;
   font-family: "Turret Road", cursive;
 }
 
 .portfolio {
-  position: relative;
-  left: 30px;
-  top: 20px;
+  position: fixed;
+  left: 5%;
+  top: 5%;
   line-height: 20pt;
   font-family: "Montserrat", sans-serif;
 }
-
-.porfolio p {
-  margin: 5px 0;
-}
-
-.link {
-}
-
-.mobile {
-  display: none;
-  position: absolute;
-  text-align: center;
-  bottom: 8%;
-  width: 100%;
-  font-family: "Hi Melody", cursive;
-}
-
-.mobile p {
-  margin: 0;
-}
-
-.pizza {
-  display: none;
-  font-size: 40vw;
-}
-
-@media only screen and (max-width: 600px) {
-  .contact {
-    display: none;
-  }
-  .portfolio {
-    display: none;
-  }
-  .mobile {
-    display: block;
-  }
-  .pizza {
-    display: block;
-  }
-}
-
-/* display: block; */
