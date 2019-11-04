@@ -25,9 +25,9 @@ a {
 
 @keyframes spin {
 	0% {
-		transform: rotateZ(0) rotateY(0);
+		transform: rotateX(0) ;
 	}
 	100% {
-		transform: rotateZ(-360deg) rotateY(-360deg);
+		transform: rotateX(-360deg) ;
 	}
 }
