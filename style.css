@@ -19,10 +19,15 @@ a {
   font-family: "Turret Road", cursive;
 }
 
-.portfolio {
-  position: fixed;
-  left: 5%;
-  top: 5%;
-  line-height: 20pt;
-  font-family: "Montserrat", sans-serif;
+.contact p{
+  animation: spin 0.5s linear;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotateZ(0) rotateY(0);
+	}
+	100% {
+		transform: rotateZ(-360deg) rotateY(-360deg);
+	}
 }
