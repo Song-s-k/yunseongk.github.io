@@ -27,6 +27,7 @@ a {
 
 .contact p{
   animation: spin 0.5s linear;
+  animation-delay: 2s;
 }
 
 @keyframes spin {
