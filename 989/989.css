@@ -14,10 +14,10 @@ html {
     height: 100%;
     margin: 0;
     font-family: 'Exo 2', sans-serif;
-}
-
-.bg {
-  height: 100%;
+  }
+  
+.bg1 {
+  height: 1200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,10 +25,16 @@ html {
   z-index: -1;
 }
 
+.bg2 {
+  display: none;
+}
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color:black;
+    z-index: -2; */
 }
 
 h1 {
@@ -83,5 +89,12 @@ h1:focus {
   }    
 }
 
-
-https://codepen.io/erikjung/pen/XdWEKE
+@media only screen and (max-width: 600px) {
+  .bg1 {
+    display: none;
+  }
+  .bg2 {
+    display: block;
+    width: 600px;
+  }
+}
